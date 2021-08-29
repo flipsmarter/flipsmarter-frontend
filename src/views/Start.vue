@@ -10,10 +10,10 @@
    <td><textarea v-model="description" placeholder="Write something about your project" rows="10" cols="70"></textarea></td></tr>
    <tr><td>Deadline<br/>(no donation accepted after it)</td>
    <td><input v-model="deadline" type="datetime-local"></td></tr>
-   <tr><td>Lower Bound of Funding Target</td>
-   <td><input v-model="minRaisedAmount" type="text" placeholder="Please enter a number such as 8.2"></td></tr>
-   <tr><td>Upper Bound of Funding Target</td>
-   <td><input v-model="maxRaisedAmount" type="text" placeholder="Please enter a number such as 9.2"></td></tr>
+   <tr><td>Soft Funding Target</td>
+   <td><input v-model="softTarget" type="text" placeholder="Please enter a number such as 8.2"></td></tr>
+   <tr><td>Hard Funding Target</td>
+   <td><input v-model="hardTarget" type="text" placeholder="Please enter a number such as 9.2"></td></tr>
    <tr><td>Minimum Donation from<br/>one single Donator</td>
    <td><input v-model="minDonationAmount" type="text" placeholder="Please enter a number such as 0.1"></td></tr>
    </table>
